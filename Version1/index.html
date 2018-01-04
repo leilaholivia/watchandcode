@@ -1,0 +1,44 @@
+leilaholivia:~/workspace/watchandcode (master) $ node
+> console.log("hello there");
+hello there
+undefined
+> console.log("hello there", "gordon");
+hello there gordon
+undefined
+> var todos = ["item 1", "item2", "item3"];
+undefined
+> console.log(todos);
+[ 'item 1', 'item2', 'item3' ]
+undefined
+> console.log("My todos:", todos);
+My todos: [ 'item 1', 'item2', 'item3' ]
+undefined
+> todos.push("item 4");
+4
+> todos.push("item 5");
+5
+> todos
+[ 'item 1', 'item2', 'item3', 'item 4', 'item 5' ]
+> todos[0]
+'item 1'
+> todos[1]
+'item2'
+> todos[3]
+'item 4'
+> todos[4]
+'item 5'
+> todos[5]
+undefined
+> todos[0] = "item 1 updated"
+'item 1 updated'
+> todos
+[ 'item 1 updated', 'item2', 'item3', 'item 4', 'item 5' ]
+> todos.splice(0,1)
+[ 'item 1 updated' ]
+> todos.splice(3,1);
+[ 'item 5' ]
+> todos.splice(3,1);
+[]
+> todos
+[ 'item2', 'item3', 'item 4' ]
+> 
